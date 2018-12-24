@@ -1,0 +1,61 @@
+.col-lg-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+.box-sm > .box-sm-footer {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    z-index: 10;
+    padding: 3px 0px;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+.box-sm {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+    border-radius: 2px;
+    margin-top:30px; 
+}
+.box-sm .icon {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.15);
+    transition: all 0.3s linear 0s;
+}
+.post-slider .carousel-caption {
+    left: 0px;
+    right: 0px;
+    text-align: left;
+    bottom: 0px;
+    padding: 1rem;
+}
+.slider .badge {
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+ 
+.badge-success {
+    background-color: rgb(50, 147, 111);
+}
+.badge {
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    padding: 0.25em 0.4em;
+    border-radius: 0.25rem;
+}
+h3 {
+    font-size: 1.75rem;
+}

@@ -1,0 +1,251 @@
+.intro {
+    background-attachment: fixed;
+}
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/img/video-bg.jpg) top center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+ 
+.intro h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h1{
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.intro h1{
+        margin: 66px 0 20px 0;
+        padding: 0;
+    }
+ 
+  
+.intro p {
+    color: #ebebeb;
+    font-weight: 700;
+    font-size: 20px;
+}
+.intro .play-btn {
+    width: 84px;
+    height: 94px;
+    background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    
+}
+a {
+    color: #f82249;
+    transition: 0.5s;
+}
+.intro .about-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+  
+    animation-delay: 0.8s;
+    border: 2px solid #f82249;
+}
+.intro .intro-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 90px;
+    right: 0;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+.intro h1 span {
+    color: #f82249;
+}
+.about {
+    background-attachment: fixed;
+}
+.about {
+    background: url(/assets/img/about-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+}
+.about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.about p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+p {
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+.schedule {
+    padding: 60px 0 60px 0;
+}
+.section-with-bg {
+    background-color: #f6f7fd;
+}
+
+.section-header {
+    margin-bottom: 60px;
+    position: relative;
+    padding-bottom: 20px;
+}
+ 
+ 
+.section-header h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+h2  {
+    font-family: "Raleway", sans-serif;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #0e1b4d;
+}
+.section-header p{
+    text-align: center;
+}
+.schedule .sub-heading {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto 30px auto;
+}
+.h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding: 0;
+    color: #0e1b4d;
+}
+  .sub-heading {
+    width: 75%;
+}
+ .sub-heading {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto 30px auto;
+}
+#schedule .schedule-item {
+    border-bottom: 1px solid #cad4f6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: background-color ease-in-out 0.3s;
+}
+#schedule .schedule-item time {
+    padding-bottom: 5px;
+    display: inline-block;
+}
+#schedule .schedule-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+     
+}
+  h4,h3  {
+    font-family: "Raleway", sans-serif;
+     margin: 0 0 20px 0;
+    padding: 0;
+    color: #0e1b4d;
+}
+.col-lg-9 {
+    
+    flex: 0 0 27%;
+    max-width: 75%;
+}
+#schedule .tab-pane {
+    transition: ease-in-out .2s;
+}
+.tab-content>.active {
+    display: block;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+#schedule .schedule-item p {
+    font-style: italic;
+    color: #152b79;
+    margin-bottom: 0;
+}
+p {
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+#intro .play-btn::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+ 
+.content-1.extended {
+    padding: 0 5px;
+}
+.content-1.dark {
+    background: #3c3c3c;
+    color: #fff;
+}
+@media (min-width: 768px){
+.content-1.left {
+    text-align: left;
+}}
+.content-1 {
+    overflow: hidden;
+    position: relative;
+    
+}
+.mbr-parallax-background, .mbr-background {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+.mrrr{
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 8px solid transparent;
+    margin-left: 34px;
+    margin-top: 27px;
+}

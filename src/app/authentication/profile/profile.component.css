@@ -1,0 +1,164 @@
+.hero-section {
+    position: relative;
+    height: 870px;
+    margin-bottom: -54px;
+}
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.hero-text {
+    padding-top: 340px;
+    text-align: center;
+}
+.text-white a {
+    color: #fff;
+}
+.service-text p,h5{
+    color: #fff;
+}
+.site-btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    min-width: 170px;
+    text-align: center;
+    background: #30caa0;
+    cursor: pointer;
+    border: none;
+}
+.filter-search {
+    position: relative;
+    z-index: 2;
+}
+.filter-form {
+    padding: 31px;
+    background: #30caa0;
+    border-radius: 3px;
+}
+.filter-form input {
+    background: #fff;
+    height: 46px;
+    border: none;
+    border-radius: 2px;
+    width: calc(43% - 20px);
+    margin-right: 20px;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+ 
+.filter-form select {
+    background: #fff;
+    height: 46px;
+    border: none;
+    border-radius: 2px;
+    width: calc(20% - 20px);
+    margin-right: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.filter-form .fs-submit {
+    background: #333;
+    width: 16%;
+    border-radius: 2px;
+}
+.propertie-item {
+    height: 270px;
+ 
+    margin-bottom: 30px;
+    position: relative;
+}
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.sale-notic, .rent-notic {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #e94646;
+    padding: 7px 13px;
+    display: inline-block;
+    border-radius: 2px;
+    position: relative;
+    z-index: 3;
+}
+.propertie-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 20px;
+    z-index: 5;
+}
+.text-white {
+    color: #fff!important;
+}
+.propertie-info .info-warp {
+    float: left;
+}
+.propertie-info .price {
+    float: right;
+    background: #30caa0;
+    padding: 12px;
+    min-width: 110px;
+    text-align: center;
+    border-radius: 2px;
+}
+.spad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.feature-category-section {
+    background: #f7f7f7;
+}
+.f-cata img {
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+}
+.card-profile {
+    margin-top: 30px;
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.service-item i {
+    height: 50px;
+    width: 50px;
+    background: #30caa0;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 18px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+.service-item .service-text {
+    padding-left: 80px;
+}
